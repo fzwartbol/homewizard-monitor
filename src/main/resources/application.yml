@@ -1,0 +1,12 @@
+##inlogserver: ubuntu
+##password: admin123
+
+## default settings
+homewizard:
+  ipaddress:
+  endpoint:
+    basicinformation: "/api"
+    data: "/api/v1/data"
+  schedule:
+    refresh:
+      cron: "0 0/5 * * * ?"
