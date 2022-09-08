@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  mongo-db:
+    image: mongo
+    container_name: mongo-homewizard-measurements
+    restart: always
+    ports:
+    - "27017:27017"
+

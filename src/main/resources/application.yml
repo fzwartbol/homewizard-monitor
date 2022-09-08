@@ -1,12 +1,21 @@
-##inlogserver: ubuntu
-##password: admin123
 
-## default settings
+logging:
+  level:
+    root: debug
+spring:
+  data:
+    mongodb:
+      database: test
+      host: localhost
+      port: 27017
+
+## default settings homewizard
 homewizard:
-  ipaddress:
+  ipaddress: "84.83.135.144:8000"
+#  ipaddress: "localhost:9090"
   endpoint:
     basicinformation: "/api"
     data: "/api/v1/data"
   schedule:
     refresh:
-      cron: "0 0/5 * * * ?"
+      cron: "* * * * *"

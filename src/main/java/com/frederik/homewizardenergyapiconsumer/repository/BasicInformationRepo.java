@@ -1,6 +1,6 @@
 package com.frederik.homewizardenergyapiconsumer.repository;
 
-import com.frederik.homewizardenergyapiconsumer.model.BasicInformation;
+import com.frederik.homewizardenergyapiconsumer.model.entity.BasicInformation;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
 
